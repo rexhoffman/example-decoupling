@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd"
+    default-merge="true">
+
+    <bean id="exampleService" class="com.ehoffman.example.implementation.ExampleServiceImpl">
+      <property name="values">
+         <map>
+           <entry key="1">
+             <bean class="com.ehoffman.example.implementation.ExampleDTOImpl">
+                <property name="name" value="A pound of feathers"/>
+                <property name="id" value="1"/>
+                <property name="mass" value="1"/>
+                <property name="volume" value="10"/>
+             </bean>
+           </entry>
+           <entry key="2">
+             <bean class="com.ehoffman.example.implementation.ExampleDTOImpl">
+                <property name="name" value="A pound of lead"/>
+                <property name="id" value="2"/>
+                <property name="mass" value="1"/>
+                <property name="volume" value=".25"/>
+             </bean>
+           </entry>
+           <entry key="3">
+             <bean class="com.ehoffman.example.implementation.ExampleDTOImpl">
+                <property name="name" value="A pound of flesh"/>
+                <property name="id" value="3"/>
+                <property name="mass" value="1"/>
+                <property name="volume" value="1"/>
+             </bean>
+           </entry>
+           <entry key="4">
+             <bean class="com.ehoffman.example.implementation.ExampleDTOImpl">
+                <property name="name" value="1/4 pound of beef"/>
+                <property name="id" value="4"/>
+                <property name="mass" value=".25"/>
+                <property name="volume" value=".25"/>
+             </bean>
+           </entry>
+         </map>      
+      </property>
+    </bean>    
+</beans>
