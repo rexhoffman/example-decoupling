@@ -1,0 +1,7 @@
+First mvn install in ExampleOrganizationalParent/
+
+Followed by mvn install in ExampleTesting/
+
+finally by mvn install in the root.
+
+If CompositeWeb is imported in to eclipse as a project, a testing test can be run that will start: the application, a firefox web driver, and run a test… by simply right clicking on the test in any number of menus and running as a testng test.
