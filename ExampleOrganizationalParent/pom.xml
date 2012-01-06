@@ -205,22 +205,22 @@
 			<dependency>
 				<groupId>org.e-hoffman.testing</groupId>
 				<artifactId>TestNG-Extensions</artifactId>
-				<version>1.1.0</version>
+				<version>1.2.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.e-hoffman.testing</groupId>
 				<artifactId>FestWebDriver</artifactId>
-				<version>1.1.0</version>
+				<version>1.2.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.e-hoffman.testing</groupId>
 				<artifactId>WebdriverModule</artifactId>
-				<version>1.1.0</version>
+				<version>1.2.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.e-hoffman.testing</groupId>
 				<artifactId>WebAppInvokerModule</artifactId>
-				<version>1.1.0</version>
+				<version>1.2.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.easytesting</groupId>
