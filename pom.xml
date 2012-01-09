@@ -13,6 +13,11 @@
 	<description>
 	  This is an example interface project
 	</description>
+  <scm>
+    <connection>scm:git:git@github.com:rexhoffman/example-testing.git</connection>
+    <developerConnection>scm:git:git@github.com:rexhoffman/example-testing.git</developerConnection>
+    <url>git@github.com/rexhoffman/example-testing.git</url>
+  </scm>
 	<name>${project.artifactId}</name>
 	<modules>
 	  <module>SimpleService</module>
