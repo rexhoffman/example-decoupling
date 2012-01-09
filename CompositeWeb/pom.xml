@@ -14,6 +14,7 @@
 			<groupId>org.e-hoffman.example</groupId>
 			<artifactId>ExampleTesting</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.e-hoffman.example</groupId>
@@ -59,16 +60,11 @@
 			<groupId>taglibs</groupId>
 			<artifactId>standard</artifactId>
 		</dependency>
-		<dependency>
-		  <groupId>org.eclipse.jdt</groupId>
-		  <artifactId>core</artifactId>
-		  <version>3.2.0.666</version>
-		  <scope>test</scope>
-		</dependency>
 	</dependencies>
 	<build>
-		<!-- plugins>
+		<plugins>
 			<plugin>
+			    <!-- completely unneeded now that tests can run jetty... -->
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>maven-jetty-plugin</artifactId>
 				<version>6.1.10</version>
@@ -89,7 +85,7 @@
 					</systemProperties>
 				</configuration>
 			</plugin>
-		</plugins -->
+		</plugins>
 		<finalName>${project.artifactId}</finalName>
 	</build>
 </project>
