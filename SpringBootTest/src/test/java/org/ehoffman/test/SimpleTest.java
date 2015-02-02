@@ -16,6 +16,7 @@ public class SimpleTest {
 
     @Test
     public void simpleTest() throws Exception {
+        //todo start on port 0 and detect os assigned port.
         SpringApplication app = new SpringApplication(Application.class);
         ConfigurableApplicationContext context = app.run();
         System.out.println("Beans:");
